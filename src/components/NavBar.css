@@ -1,0 +1,47 @@
+/* Adjustments to the navbar container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  padding: 0.5rem 2rem;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  box-sizing: border-box;
+}
+
+.navbar-logo {
+  /* Your existing styles */
+  padding-right: 19x; /* Adjust the value as needed */
+}
+
+/* Container for navigation buttons */
+.nav-links {
+  display: flex; /* Use flexbox for the buttons layout */
+  align-items: center; /* Aligns items vertically in the center */
+  gap: 1rem; /* Add some space between the buttons */
+  margin-left: auto; /* Push the navigation buttons to the right */
+}
+
+/* Individual navigation button styling */
+.navbutton {
+  color: white; /* Button text color */
+  background-color: transparent; /* Transparent background for buttons */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  padding: 0.5rem 1rem; /* Padding around the buttons */
+  text-decoration: none; /* Remove underline from links if you're using <a> tags */
+  position: relative; /* Needed for the positioning of the ::after pseudo-element */
+}
+
+/* Separator styling */
+.separator {
+  height: 20px; /* Adjust if necessary to fit the navbar height */
+  width: 1px; /* Thickness of the separator */
+  background-color: white; /* Color of the separator, ensure it contrasts with the navbar background */
+  opacity: 0.5; /* Adjusts the opacity of the separator lines */
+  margin: 0 8px; /* Optional: Add some horizontal space around the separator */
+}
