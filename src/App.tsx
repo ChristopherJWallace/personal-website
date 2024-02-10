@@ -12,6 +12,12 @@ import { Extra } from './pages/extra'
 
 function App() {
 
+  // Store state
+  {
+    count : {value : 0}
+  }
+  
+
   return (
     <Router>
       <Routes>
