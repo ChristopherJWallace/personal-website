@@ -1,6 +1,9 @@
+// Reducers are functions that take the current state and an action as arguments, 
+// and return a new state based on the action type.
+
 import { TODOActionType } from "../action-types";
 import { TODOAction } from "../actions/index";
-import {createSlice, nanoid} from '@reduxjs/toolkit'
+import {nanoid} from '@reduxjs/toolkit'
 
 interface TODO {
   id: string;

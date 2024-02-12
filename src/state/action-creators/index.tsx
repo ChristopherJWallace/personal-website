@@ -35,11 +35,19 @@ export const bankruptMoney = () => {
 // To do list
 import {TODOAction} from "../actions/index"
 import { TODOActionType } from "../action-types"
-export const addTodo = (text: string): TODOAction => ({
-  type: TODOActionType.ADD_TODO,
-  payload: text,
-});
-export const removeTodo = (id: string): TODOAction => ({
-  type: TODOActionType.REMOVE_TODO,
-  payload: id,
-});
+export const addTodo = (text: string) => {
+  return (dispatch: Dispatch<TODOAction>) => {
+    dispatch({
+      type: TODOActionType.ADD_TODO,
+      payload: text
+    });
+  };
+};
+export const removeTodo = (id: string) => {
+  return (dispatch: Dispatch<TODOAction>) => {
+    dispatch({
+      type: TODOActionType.REMOVE_TODO,
+      payload: id
+    });
+  };
+};

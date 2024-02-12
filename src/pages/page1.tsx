@@ -14,7 +14,7 @@ export function Page1() {
     <>
       <h1> This is page 1</h1>
       <div className="Page1">
-        <h1>{amount}</h1>
+        <h1>{amount.value}</h1>
         <button onClick={() => depositMoney(1)}>Deposit</button>
         <button onClick={() => withdrawMoney(1)}>Withdraw</button>
         <button onClick={() => bankruptMoney()}>Bankrupt</button>
