@@ -8,6 +8,7 @@ import { Page1 } from './pages/page1'
 import { Page2 } from './pages/page2'
 import { Page3 } from './pages/page3'
 import { Extra } from './pages/extra'
+import { ShopAppDemo } from './pages/shopAppDemo'
 
 
 function App() {
@@ -15,8 +16,13 @@ function App() {
   // Store state
   {
     count : {value : 0}
+    isLoggedIn : {value: false}
   }
+  // Action
+  const increment = {type: "INCREMENT", payload: 10}
+  // Reducers
   
+
 
   return (
     <Router>
@@ -27,6 +33,7 @@ function App() {
           <Route path="/Page2" element={<Page2 />}/>
           <Route path="/Page3" element={<Page3 />}/>
           <Route path="/extra" element={<Extra />}/>
+          {/* <Route path="/ShopAppDemo" element={<ShopAppDemo />}/> */}
         </Route>
       </Routes>
     </Router>
