@@ -1,20 +1,22 @@
 import { createSlice, PayloadAction, nanoid} from '@reduxjs/toolkit';
 
+// Handle types => action & action-types
 interface Todo {
   id: string;
   text: string;
 }
-
 interface TodoState {
   todos: Todo[];
 }
 
+// Handle initial state => reducer
 const initialState: TodoState = {
   todos: [],
 };
 
+
 export const todoSlice = createSlice({
-  name: 'todo',
+  name: 'todo', 
   initialState,
   reducers: {
     addTodo: (state: TodoState, action: PayloadAction<string>) => {

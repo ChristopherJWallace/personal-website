@@ -1,15 +1,13 @@
-import { NavBar } from "./components/NavBar"
+import { NavBar } from "./components/NAVBAR/NavBar"
 import { Outlet } from "react-router-dom"
 
 
 export function Layout() {
   return (
     <>
-      <NavBar/>
-      <main>
-        {/* Outlet is the parent to all of the routes listed */}
-        <Outlet/>
-      </main>
+      {/* <NavBar/> */}
+      {/* Outlet is the parent to all of the routes listed */}
+      <Outlet/>
     </>
   )
 }

@@ -5,9 +5,7 @@ import { ActionCreators, State } from "../state";
 export function Page1() {
 
   const dispatch = useDispatch();
-
   const {depositMoney, withdrawMoney, bankruptMoney} = bindActionCreators(ActionCreators, dispatch)
-  
   const amount = useSelector((state: State) => state.bank)
 
   return (

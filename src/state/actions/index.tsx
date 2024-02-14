@@ -1,4 +1,4 @@
-// Defines interfaces and all possible combinations 
+// Defines interfaces and all possible combinations of actions within
 
 import { BANKActionType } from "../action-types"
 interface DepositAction {

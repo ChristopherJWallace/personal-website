@@ -1,3 +1,5 @@
+// Combines reducers to export 
+
 import { combineReducers } from "@reduxjs/toolkit";
 import bankReducer from "./BankReducer"
 import TODOReducer from "./TODOReducer";
