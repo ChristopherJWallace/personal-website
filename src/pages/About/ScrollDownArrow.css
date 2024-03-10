@@ -1,0 +1,7 @@
+.scroll-arrow {
+  position: fixed;
+  bottom: 20px; /* Distance from bottom of the viewport */
+  right: 20px; /* Distance from the right of the viewport */
+  cursor: pointer;
+  /* Additional styles for the arrow (size, color, etc.) */
+}
