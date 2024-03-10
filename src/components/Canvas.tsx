@@ -20,7 +20,7 @@ const baseWidth = 2; // pipe diameter
 const rangeWidth = 4;
 const baseHue = 120; // 0 (red) - 120 (green) - 240 (blue) - 360 (red)
 const rangeHue = 120; // Dictates range of colors 0-360
-const pipeOpacity = 0.05; // Dictates the opacity of lines (0: no lines, 1: 50% opacity)
+const pipeOpacity = 0.025; // Dictates the opacity of lines (0: no lines, 1: 50% opacity)
 const refreshRate = 20000; // Number of frames after which to refresh
 
 
@@ -166,7 +166,6 @@ const CanvasAnimation: React.FC = () => {
 
     const updatePipes = () => {
       tickRef.current++;
-      console.log(tickRef.current);
     
       // Refresh logic
       if (tickRef.current % refreshRate === 0) {

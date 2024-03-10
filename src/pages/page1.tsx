@@ -7,10 +7,10 @@ export function Page1() {
   const dispatch = useDispatch();
   const {depositMoney, withdrawMoney, bankruptMoney} = bindActionCreators(ActionCreators, dispatch)
   const amount = useSelector((state: State) => state.bank)
-
+2q
   return (
     <>
-      <h1> This is page 1</h1>
+      <h1> This is page 1</h1>22
       <div className="Page1">
         <h1>{amount.value}</h1>
         <button onClick={() => depositMoney(1)}>Deposit</button>
