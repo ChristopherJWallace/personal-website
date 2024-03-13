@@ -24,7 +24,7 @@ export function NavBar() {
   return (
   <div className="navbar">
     <a href="/" className="navbar-logo"> 
-      <span>{"<Christopher "}</span>
+      <span>{"<Christopher J."}</span>
       <span>{" Wallace/>"}</span>
     </a>
 
