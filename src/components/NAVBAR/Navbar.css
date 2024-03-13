@@ -82,7 +82,7 @@ label {
   right: 10px;
 }
 input:checked + label {
-  background: var(--pink);
+  background: var(--BackgroundColorA);
 }
 /* Creates button for menu D/L */
 label:after {

@@ -44,7 +44,7 @@ export function NavBar() {
         {/* <div className="separator"></div>
         <Link to="/"><button className="navbutton" onClick={closeMenu}>HOME</button></Link> */}
         <div className="separator"></div>
-        <Link to="/About"><button className="navbutton" onClick={closeMenu}>ABOUT ME</button></Link>
+        <Link to="/"><button className="navbutton" onClick={closeMenu}>ABOUT ME</button></Link>
         {/* <div className="separator"></div> */}
         {/* <Link to="/Page2"><button className="navbutton" onClick={closeMenu}>PROJECTS</button></Link>
         <div className="separator"></div>
