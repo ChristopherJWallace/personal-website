@@ -188,7 +188,7 @@ input:checked + label:after {
     background-color: var(--green);
   }
   .nav-links.active {
-    background-color: var(--pink);
+    background-color: var(--BackgroundColorA);
   }
   .nav-links.active {
     opacity: 1;
