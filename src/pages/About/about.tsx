@@ -64,7 +64,7 @@ export function About() {
     <AboutContainer id="about">
       <div className="about-text">
         <motion.h1 initial="hidden" animate="visible" variants={fadeInDown} transition={{ duration: 1 }}>
-          About me
+          About me!
         </motion.h1>
         <hr/>
         <motion.p initial="hidden" animate="visible" variants={fadeInLeft} transition={{ duration: 1, delay: 0.5}}>
